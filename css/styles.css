@@ -11340,7 +11340,7 @@ hr.divider-light {
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #fff;
+  background-color: #f4623a;
   transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {
@@ -11374,7 +11374,7 @@ hr.divider-light {
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.7);
-    padding: 0 1rem;
+    padding: 0.7rem 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #fff;
@@ -11384,7 +11384,7 @@ hr.divider-light {
   }
   #mainNav.navbar-shrink {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #fff;
+    background-color: #f4623a;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #212529;
@@ -11398,6 +11398,20 @@ hr.divider-light {
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
     color: #f4623a;
   }
+}
+
+.search input[type=text]{
+  width:400px;
+  height:30px;
+  border-radius:25px;
+  border: none;
+
+}
+
+.search{
+  float:right;
+  margin:7px;
+
 }
 
 header.masthead {
