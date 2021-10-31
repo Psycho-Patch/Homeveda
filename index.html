@@ -24,8 +24,10 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
-
+    <link href="css/search.css" rel="stylesheet" />
     <link href="css/register.css" rel="stylesheet" />
+
+
 </head>
 
 <body id="page-top">
@@ -33,6 +35,9 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div class="container px-4 px-lg-5">
             <a class="navbar-brand" href="#page-top">HomeVeda</a>
+<div class="button">
+
+</div>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -58,81 +63,95 @@
                     <p class="text-white-75 mb-5">A healthy diet throughout life supports normal growth, development and
                         ageing, helps to maintain a healthy body weight, and reduces the risk of chronic disease leading
                         to overall health and well-being.</p>
-                    <a class="btn btn-primary btn-xl" href="#portfolio">Find Out More</a>
+                <div>
+                    <a class="btn btn-primary btn-xl" style="border: outset;" href="#portfolio">Find Out More</a>
+                    <a class="btn btn-primary btn-xl" style="border: ridge;background: padding-box;" href="#search-1">Search nutrient values</a>
+                </div>
                 </div>
             </div>
         </div>
     </header>
-    <!-- About-->
-    <section class="page-section bg-primary" id="about">
+
+    <!-- Search Items-->
+    <section id="search-1" class="page-section" id="about" style="background-color:ghostwhite;">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <h2 class="text-white mt-0">We've got what you need!</h2>
-                    <hr class="divider divider-light" />
-                    <p class="text-white-75 mb-4">Start Bootstrap has everything you need to get your new website up and
+                    <h2 class="text-black mt-0">We've got what you need!</h2>
+                    <hr class="divider divider-dark" />
+                    <p class="text-black mb-4">Start Bootstrap has everything you need to get your new website up and
                         running in no time! Choose one of our open source, free to download, and easy to use themes! No
                         strings attached!</p>
-                    <a class="btn btn-light btn-xl" href="#contact">Get in Touch!</a>
+                        <div class="search-1">
+                            <input type="text" placeholder="Search for items...">
+                            <div class="search"></div>
+                          </div>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- Portfolio-->
     <div id="portfolio">
         <div class="container-fluid p-0">
             <div class="row g-0">
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Diary">
-                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" href="fruits.html" alt="..." />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">know here about the wide range of variety of fruits</div>
-                                <div class="project-name">Diary</div>
+                <div class="col-lg-4 col-sm-6 container img__wrap">
+                    <a href="dairy.html">
+                        <img class="img-fluid image" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
+                        <div class="portfolio-box-caption center" style="height: 25%; width: 25%; text-align: center;">
+                            <div class="project-name img__description"
+                                style=" padding-top: 20%; height: 100%; width: 100%; background-color: rgba(255, 0, 0, 0.4); color: #fff; font-size: x-large; font-weight:bolder;">
+                                Diary</div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg" title="Fruits">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50"></div>
-                            <div class="project-name">Fruits</div>
+                <div class="col-lg-4 col-sm-6 container img__wrap">
+                    <a href="fruits.html">
+                        <img class="img-fluid image" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
+                        <div class="portfolio-box-caption center" style="height: 25%; width: 25%; text-align: center;">
+                            <div class="project-name img__description"
+                                style=" padding-top: 20%; height: 100%; width: 100%; background-color: rgba(255, 0, 0, 0.4); color: #fff; font-size: x-large; font-weight:bolder;">
+                                Fruits</div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg" title="Vegetables">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="..." />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Dairy</div>
-                            <div class="project-name">Vegetables</div>
+                <div class="col-lg-4 col-sm-6 container img__wrap">
+                    <a href="vegetables.html">
+                        <img class="img-fluid image" src="assets/img/portfolio/thumbnails/3.jpg" alt="..." />
+                        <div class="portfolio-box-caption center" style="height: 25%; width: 25%; text-align: center;">
+                            <div class="project-name img__description"
+                                style=" padding-top: 20%; height: 100%; width: 100%; background-color: rgba(255, 0, 0, 0.4); color: #fff; font-size: x-large; font-weight:bolder;">
+                                Vegetables</div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg" title="Beans">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="..." />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Beans</div>
-                            <div class="project-name">Beans</div>
+                <div class="col-lg-4 col-sm-6 container img__wrap">
+                    <a href="beans.html">
+                        <img class="img-fluid image" src="assets/img/portfolio/thumbnails/4.jpg" alt="..." />
+                        <div class="portfolio-box-caption center" style="height: 25%; width: 25%; text-align: center;">
+                            <div class="project-name img__description"
+                                style=" padding-top: 20%; height: 100%; width: 100%; background-color: rgba(255, 0, 0, 0.4); color: #fff; font-size: x-large; font-weight:bolder;">
+                                Beans</div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg" title="Spices">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="..." />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Spices</div>
-                            <div class="project-name">Spices</div>
+                <div class="col-lg-4 col-sm-6 container img__wrap">
+                    <a href="spices.html">
+                        <img class="img-fluid image" src="assets/img/portfolio/thumbnails/5.jpg" alt="..." />
+                        <div class="portfolio-box-caption center" style="height: 25%; width: 25%; text-align: center;">
+                            <div class="project-name img__description"
+                                style=" padding-top: 20%; height: 100%; width: 100%; background-color: rgba(255, 0, 0, 0.4); color: #fff; font-size: x-large; font-weight:bolder;">
+                                Spices</div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg" title="Yoga">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="..." />
-                        <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50">Yoga</div>
-                            <div class="project-name">Yoga</div>
+                <div class="col-lg-4 col-sm-6 container img__wrap">
+                    <a href="yoga.html">
+                        <img class="img-fluid image" src="assets/img/portfolio/thumbnails/6.jpg" alt="..." />
+                        <div class="portfolio-box-caption center" style="height: 25%; width: 25%; text-align: center;">
+                            <div class="project-name img__description"
+                                style=" padding-top: 20%; height: 100%; width: 100%; background-color: rgba(255, 0, 0, 0.4); color: #fff; font-size: x-large; font-weight:bolder;">
+                                Yoga</div>
                         </div>
                     </a>
                 </div>
@@ -191,10 +210,11 @@
 
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact" style="margin-top: 3rem;">
+    <section id="contact" class="contact" style="margin-top: 2rem; border-top: 2px red dashed;">
         <div class="container">
 
             <div class="section-title">
+                <br>
                 <h2>Contact</h2>
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
                     consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
@@ -204,9 +224,9 @@
 
         <div>
             <iframe style="border:0; width: 100%; height: 350px;"
-            src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Indore&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
-            frameborder="0" allowfullscreen>
-          </iframe>
+                src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Indore&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+                frameborder="0" allowfullscreen>
+            </iframe>
         </div>
 
         <div class="container">
@@ -215,7 +235,7 @@
 
                 <div class="col-lg-4">
                     <div class="info">
-                        <div class="address d-inline-flex" >
+                        <div class="address d-inline-flex">
                             <img src="assets/placeholder.png" alt="" width="32px" height="32px">
                             <h4> Location:</h4>
                         </div>
@@ -259,10 +279,13 @@
                         </div>
                         <div class="my-3">
                             <div class="error-message"></div>
-                            
-                            <div class="sent-message alert alert-success" role="alert">Your message has been sent. Thank you!</div>
+
+                            <div class="sent-message alert alert-success" role="alert">Your message has been sent. Thank
+                                you!</div>
                         </div>
-                        <div class="text-center"><button class="btn btn-danger" type="submit">Send Message</button></div>
+                        <div class="text-center"><button class="btn btn-danger" type="submit">Send Message</button>
+                        </div>
+                        <br>
                     </form>
 
                 </div>
@@ -271,6 +294,7 @@
 
         </div>
     </section>
+    <br>
     <br>
     <hr>
     <!-- End Contact Section -->
@@ -317,6 +341,30 @@
     <script src="main.js"></script>
 
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script>
+        function filterFunction() {
+            var input, filter, ul, li, datalist, i;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            datalist = document.getElementById("browsers");
+            a = datalist.getElementsByTagName("a");
+            for (i = 0; i < a.length; i++) {
+                txtValue = a[i].textContent || a[i].innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    a[i].style.display = "";
+                } else {
+                    a[i].style.display = "none";
+                }
+            }
+        }
+
+        var dropDownValue = document.getElementById("browsers");
+        dropDownValue.onchange = function () {
+            if (this.selectedIndex !== 0) {
+                window.location.href = this.value;
+            }
+        };
+    </script>
 
 </body>
 
